@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Quality Property Management and Commercial Realty that you can count on.">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Platford</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='faviconlogo.png') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+</head>
+<style>
+    
+    body
+    {
+        font-family: Roboto, sans-serif;
+    }
+    
+</style>
+<body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <a class="navbar-brand text-primary" href="/">PLATFORD</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="container-fluid">
+        
+        <div class="row">
+        
+        
+            <div class="col-12" style="min-height: 100vh; background: url('/sky.jpg') no-repeat center center fixed; background-size: cover;">
+
+                <div class="row">
+
+                    <div class="col-12" style="height: 20vh;" id="about"></div>
+
+                    <div class="col-2"></div>
+
+                    <div class="col-8 card">
+
+                        <div class="card-body">
+
+                            <div style="text-align: center">
+                                        <h2>Platford</h2>
+                                <hr>
+                            </div>
+                            
+                            <p>We specialize in property management and commercial real estate. We have worked with our clients for decades to provide exceptional services at reasonable prices. We look forward to helping you.</p>
+                            <br>
+                            <div style="text-align: center;">
+                                <button class="btn btn-outline-primary contactbutton">Contact Us</button>
+                            </div>
+                            
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-2"></div>
+
+                    <div class="col-12" style="height: 10vh;"></div>
+
+                </div>
+
+            </div>
+            
+            <div class="col-12" style="min-height: 100vh; background: url('/inside.jpg') no-repeat center center fixed; background-size: cover;">
+
+                <div class="row">
+
+                    <div class="col-12" style="height: 20vh;"  id="services"></div>
+
+                    <div class="col-2"></div>
+
+                    <div class="col-8 card">
+
+                        <div class="card-body">
+
+                            <div style="text-align: center">
+                                        <h2>Our Services</h2>
+                            </div>
+                            
+                            <p>We serve the greater Chicago area with commercial real estate and property management needs. We manage over a dozen industrial parks across north-west Illinois and southern Wisonsin. We also help clients in the area find the commercial space that best fits their needs and budgets. If you have any questions please feel free to reach out below.</p>
+                            
+                            <br>
+                            
+                            <div style="text-align: center;">
+                                <button class="btn btn-outline-primary contactbutton">Contact Us</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-2"></div>
+
+                    <div class="col-12" style="height: 10vh;"></div>
+
+                </div>
+
+            </div>
+            
+            <div class="col-12" style="min-height: 100vh; background: url('/outside.jpg') no-repeat center center fixed; background-size: cover;">
+
+                <div class="row">
+
+                    <div class="col-12 contactdiv" style="height: 20vh;"></div>
+
+                    <div class="col-2"></div>
+
+                    <div class="col-8 card">
+
+                        <div class="card-body">
+
+                            <div style="text-align: center">
+                                        <h2>Contact Us</h2>
+                            </div>
+                            
+                            <form action="https://formspree.io/kmerritt@platford.com" method="POST">
+                                <p>Name:</p>
+                                <input type="text" name="name" placeholder="John Smith" class="form-control">
+                                <br>
+                                <p>Email:</p>
+                                <input type="email" name="email" placeholder="john@example.com" class="form-control">
+                                <br>
+                                <p>Message:</p>
+                                <textarea name="message" placeholder="What can we help you with?" class="form-control"></textarea>
+                                <br>
+                                <button type="submit" class="btn btn-outline-primary">Send Test</button>
+                            </form>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-2"></div>
+
+                    <div class="col-12" style="height: 10vh;"></div>
+
+                </div>
+
+            </div>
+        
+        </div>
+    
+    
+    </div>
+    
+<script>
+    
+
+    $(".contactbutton").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".contactdiv").offset().top},
+            'slow');
+    });
+    
+</script>
+    
+    
+
+</body>
+</html>
